@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 const uri =
-  "mongodb+srv://sabiqhashilkp786:5Y4iwcqbTartFVAl@cluster0.xxi3nec.mongodb.net/test?retryWrites=true&w=majority";
+  "mongodb+srv://sabiqhashilkp786:5Y4iwcqbTartFVAl@cluster0.xxi3nec.mongodb.net/w=majority";
 
 // Connect to MongoDB using Mongoose
 mongoose.connect(uri);
