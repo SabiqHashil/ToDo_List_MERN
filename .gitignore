@@ -96,3 +96,9 @@ web_modules/
 # Temporary files
 *.tmp
 *.temp
+
+# WebStorm project files
+/node_modules
+npm-debug.log
+.DS_Store
+/*.env
